@@ -1,8 +1,7 @@
 {
   "name": "4-progect",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,19 @@
   "bugs": {
     "url": "https://github.com/MiyaTS/progect/issues"
   },
-  "homepage": "https://github.com/MiyaTS/progect#readme"
+  "homepage": "https://github.com/MiyaTS/progect#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "sass": "^1.50.1"
+  }
 }
